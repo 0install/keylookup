@@ -4,5 +4,8 @@ runtime: python
 api_version: 1
 
 handlers:
-- url: /.*
+- url: /
   script: keylookup.py
+- url: /key/([0-9A-F]+)
+  script: keylookup.py
+  secure: always
