@@ -8,6 +8,12 @@ from google.appengine.ext.webapp.util import run_wsgi_app
 from google.appengine.ext.webapp import template
 from google.appengine.ext import db
 
+def load(db):
+	return set(x.strip() for x in file(db))
+
+debian = load('debian.db')
+debian_maint = load('debian-maintainers.db')
+
 class MainPage(webapp.RequestHandler):
 	def get(self):
 		template_values = {}
@@ -21,15 +27,20 @@ class KeyLookup(webapp.RequestHandler):
 		gen.startDocument()
 		gen.startElement('key-lookup', {})
 
+		def report(vote, text):
+			gen.startElement('item', {'vote': vote})
+			gen.characters(text)
+			gen.endElement('item')
+
 		hint = trust_db.hints.get(keyID, None)
 		if hint:
-			gen.startElement('item', {'vote': 'good'})
-			gen.characters(hint)
-			gen.endElement('item')
-		else:
-			gen.startElement('item', {'vote': 'bad'})
-			gen.characters('WARNING: Nothing is known about this key! Be very careful!')
-			gen.endElement('item')
+			report('good', hint)
+
+		if keyID in debian:
+			report('good', 'This key belongs to a Debian Developer')
+
+		if keyID in debian_maint:
+			report('good', 'This key belongs to a Debian Maintainer')
 
 		gen.endElement('key-lookup')
 		gen.endDocument()
