@@ -37,10 +37,10 @@ class KeyLookup(webapp.RequestHandler):
 			report('good', hint)
 
 		if keyID in debian:
-			report('good', 'This key belongs to a Debian Developer')
+			report('good', 'This key belongs to a Debian Developer.')
 
 		if keyID in debian_maint:
-			report('good', 'This key belongs to a Debian Maintainer')
+			report('good', 'This key belongs to a Debian Maintainer.')
 
 		gen.endElement('key-lookup')
 		gen.endDocument()
