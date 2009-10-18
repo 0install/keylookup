@@ -101,4 +101,7 @@ hints = {
 	'517085B7261D3B03A97515319C2C2CD1D41AF5BB' :
 		'Frank Richter is a developer of the Crystal Space 3D SDK. This key was '
 		'confirmed in a 2008-09-04 post to the zero-install-devel mailing list.',
+
+	'32D5CEB11052FB5A21452B6E226D617E1B16CCD3' :
+		'Rene Lopez is a Zero Install developer and the packager for the ClanBomber game.',
 }
