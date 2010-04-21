@@ -104,4 +104,9 @@ hints = {
 
 	'32D5CEB11052FB5A21452B6E226D617E1B16CCD3' :
 		'Rene Lopez is a Zero Install developer and the packager for the ClanBomber game.',
+
+	'77F46DC2F98DB14BFB957102D980D4F15AFE9C14' :
+		'Anders F Björklund is a Zero Install developer, whose work includes the Mac port '
+		'and feeds for Firefox, OpenOffice.org and SeaMonkey. Key announced on the zeroinstall '
+		'mailing list 2010-04-21.',
 }
