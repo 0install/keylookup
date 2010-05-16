@@ -109,4 +109,12 @@ hints = {
 		'Anders F Björklund is a Zero Install developer, whose work includes the Mac port '
 		'and feeds for Firefox, OpenOffice.org and SeaMonkey. Key announced on the zeroinstall '
 		'mailing list 2010-04-21.',
+
+	'B893F41ED9E753C631EB09D4A9D3F38F22C6A977' :
+		'Wayne Scott has created a feed for sshuttle. This key was '
+		'announced on the zeroinstall mailing list on 2010-05-14.',
+
+	'7EADC3F1EFE150C371EDE0A15B5CB97421BAA5DC' :
+		'Simon E. Silva Lauinger is part of the 0install.de effort. This key was announced '
+		'on the zeroinstall mailing list on 2010-05-16.'
 }
