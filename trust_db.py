@@ -121,4 +121,8 @@ hints = {
 	'EACF000E9C82C83EC234705E723CC5B4B6869B81' :
 		'Aleksey Lim is a developer of the Sugar desktop environment and a Zero Install '
 		'developer. This key was announced on the zeroinstall mailing list on 2010-06-27.',
+
+	'F442D6530E05336C348DE676FE58602B58894ED2' :
+		'Tim Cuthbertson provides a number of utility programs through Zero Install. '
+		'This key was announced on the zeroinstall mailing list on 2010-07-25.',
 }
