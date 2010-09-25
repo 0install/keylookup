@@ -125,4 +125,8 @@ hints = {
 	'F442D6530E05336C348DE676FE58602B58894ED2' :
 		'Tim Cuthbertson provides a number of utility programs through Zero Install. '
 		'This key was announced on the zeroinstall mailing list on 2010-07-25.',
+
+	'66B436AC2D4B2281257B9BB985A0F0DAB46EE668' :
+		'Bastian Eicher is the maintainer of the Windows version of Zero Install. '
+		'This key was announced on the zeroinstall mailing list on 2010-09-21.',
 }
