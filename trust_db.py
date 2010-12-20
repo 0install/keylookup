@@ -129,4 +129,8 @@ hints = {
 	'66B436AC2D4B2281257B9BB985A0F0DAB46EE668' :
 		'Bastian Eicher is the maintainer of the Windows version of Zero Install. '
 		'This key was announced on the zeroinstall mailing list on 2010-09-21.',
+
+	'4CFBD0B5B7102BF66E9F12AEFBCAE33FC2DE322B' :
+		'IT Innovation delivers proofs-of-concept, demonstrators and '
+		'novel operational systems to partners in industry and commerce.'
 }
