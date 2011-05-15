@@ -23,16 +23,16 @@ hints = {
 		'Stephen Watson is a project admin for the ROX desktop, and has been involved with the '
 		'project since 2000. This key has been used for signing software since the 23 Jul 2005 '
 		'announcement on the zero-install mailing list.',
-	
+
 	'F0A0CA2A8D8FCC123F5EC04CD8D59DC384AE988E' :
 		'Piero Ottuzzi is experimenting with packaging programs for 0launch. This key has been '
 		'known since a 16 Mar 2005 post to the zero-install mailing list. It was first used to '
 		'sign software in an announcement posted on 9 Aug 2005.',
-	
+
 	'FC71DC3364367CE82F91472DDF32928893D894E9' :
 		'Niklas Höglund is experimenting with using Zero Install on the Nokia 770. This key has '
 		'been known since the announcement of 4 Apr 2006 on the zero-install mailing list.',
-	
+
 	'B93AAE76C40A3222425A04FA0BDA706F2C21E592' : # expired
 		'Ilja Honkonen is experimenting with packaging software for Zero Install. This key '
 		'was announced on 2006-04-21 on the zero-install mailing list.',
@@ -40,19 +40,19 @@ hints = {
 	'6AD4A9C482F1D3F537C0354FC8CC44742B11FF89' :
 		'Ilja Honkonen is experimenting with packaging software for Zero Install. This key '
 		'was announced on 2009-06-18 on the zero-install mailing list.',
- 	
+
 	'5D3D90FB4E6FE10C7F76E94DEE6BC26DBFDE8022' :
 		'Dennis Tomas leads the rox4debian packaging effort. This key has been known since '
 		'an email forwarded to the rox-devel list on 2006-05-28.',
-	
+
 	'2E2B4E59CAC8D874CD2759D34B1095AF2E992B19' :
 		'Lennon Cook creates the FreeBSD-x86 binaries for various ROX applications. '
 		'This key was announced in a Jun 17, 2006 post to the rox-devel mailing list.',
-	
+
 	'7722DC5085B903FF176CCAA9695BA303C9839ABC' :
 		'Lennon Cook creates the FreeBSD-x86 binaries for various ROX applications. '
 		'This key was announced in an Oct 5, 2006 post to the rox-users mailing list.',
-	
+
 	'03DC5771716A5A329CA97EA64AB8A8E7613A266F' :
 		'Lennon Cook creates the FreeBSD-x86 binaries for various ROX applications. '
 		'This key was announced in an Oct 7, 2007 post to the rox-users mailing list.',
@@ -85,7 +85,7 @@ hints = {
 	'D7582A2283A01A6480780AC8E1839306AE83E7E2' :
 		'Tom Adams is experimenting with packaging software with Zero Install. '
 		'This key was announced on the zero-install mailing list on 2007-08-14.',
-	
+
 	'3B2A89E694686DC4FEEFD6F6D00CA21EC004251B' :
 		'Tuomo Valkonen is the author of the Ion tiling window manager. This key fingerprint '
 		'was taken from http://modeemi.fi/~tuomov/ on 2007-11-17.',
@@ -93,7 +93,7 @@ hints = {
 	'A14924F4DFD1B81DED3436240C9B2C41B8D66FEA' :
 		'Andreas K. Förster is experimenting with creating Zero Install feeds. '
 		'This key was announced in a 2008-01-25 post to the zeroinstall mailing list.',
-	
+
 	'520DCCDBE5D38E2B22ADD82672E5E2ACF037FFC4' :
 		'Thierry Goubier creates PPC binaries for the ROX desktop. This key was '
 		'announced in a 2008-02-03 posting to the rox-users list.',
@@ -132,5 +132,15 @@ hints = {
 
 	'4CFBD0B5B7102BF66E9F12AEFBCAE33FC2DE322B' :
 		'IT Innovation delivers proofs-of-concept, demonstrators and '
-		'novel operational systems to partners in industry and commerce.'
+		'novel operational systems to partners in industry and commerce.',
+
+	'D7BEEFEEA3B12C7277184D9AC76E50582961BB6F' :
+		'Sugar is the core component of a worldwide effort to provide '
+		'every child with equal opportunity for a quality education. '
+		'This key was announced on the zeroinstall mailing list on 2011-05-15.',
+
+	'1E6542DE1A476A6CAAA62547F105B0EB293069D7' :
+		'Sugar is the core component of a worldwide effort to provide '
+		'every child with equal opportunity for a quality education. '
+		'This key was announced on the zeroinstall mailing list on 2011-05-15.',
 }
