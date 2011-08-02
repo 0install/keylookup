@@ -118,6 +118,10 @@ hints = {
 		'Simon E. Silva Lauinger is part of the 0install.de effort. This key was announced '
 		'on the zeroinstall mailing list on 2010-05-16.',
 
+	'FA2577C515715EEE1261D3B0EFD438E5019F0846' :
+		'Simon E. Silva Lauinger is part of the 0install.de effort. This key was announced '
+		'on the zeroinstall mailing list on 2011-08-01.',
+
 	'EACF000E9C82C83EC234705E723CC5B4B6869B81' :
 		'Aleksey Lim is a developer of the Sugar desktop environment and a Zero Install '
 		'developer. This key was announced on the zeroinstall mailing list on 2010-06-27.',
@@ -143,4 +147,9 @@ hints = {
 		'Sugar is the core component of a worldwide effort to provide '
 		'every child with equal opportunity for a quality education. '
 		'This key was announced on the zeroinstall mailing list on 2011-05-15.',
+
+	'AD3ED57BBF9639F52668EEEC1BC29AAE9B543039' :
+		'Tim Diels is a 0install contributor and is experimenting with '
+		'using 0install to distribute web apps. This key was announced on '
+		'the mailing list on 2011-07-24.',
 }
