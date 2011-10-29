@@ -148,6 +148,10 @@ hints = {
 		'every child with equal opportunity for a quality education. '
 		'This key was announced on the zeroinstall mailing list on 2011-05-15.',
 
+	'61EA548A0933AB2A2B183FD47C0F93F8EC9F8344' :
+		'This key signs packages built by the Sugar Labs build system. '
+		'This key was announced on the zeroinstall mailing list on 2011-10-29.',
+
 	'AD3ED57BBF9639F52668EEEC1BC29AAE9B543039' :
 		'Tim Diels is a 0install contributor and is experimenting with '
 		'using 0install to distribute web apps. This key was announced on '
