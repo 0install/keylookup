@@ -156,4 +156,9 @@ hints = {
 		'Tim Diels is a 0install contributor and is experimenting with '
 		'using 0install to distribute web apps. This key was announced on '
 		'the mailing list on 2011-07-24.',
+
+	'765B086662D9CA2615E62111C675799A4E7A5231' :
+		'Dave Abrahams develops the Ryppl C++ software management system, '
+		'and added Windows support to 0compile. This key was announced on '
+		'the mailing list on 2012-05-08.',
 }
