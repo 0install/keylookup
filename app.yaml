@@ -1,11 +1,13 @@
 application: keylookup-hrd
-version: 1
-runtime: python
+version: 2
+runtime: python27
 api_version: 1
+threadsafe: yes
 
 handlers:
 - url: /
-  script: keylookup.py
+  static_files: index.html
+  upload: index.html
 - url: /key/([0-9A-F]+)
-  script: keylookup.py
+  script: keylookup.app
   secure: always
