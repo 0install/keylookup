@@ -11,3 +11,9 @@ handlers:
 - url: /key/([0-9A-F]+)
   script: keylookup.app
   secure: always
+- url: /cron/0mirror
+  script: cron.app
+  login: admin
+
+includes:
+- 0mirror-update.cap
