@@ -161,4 +161,9 @@ hints = {
 		'Dave Abrahams develops the Ryppl C++ software management system, '
 		'and added Windows support to 0compile. This key was announced on '
 		'the mailing list on 2012-05-08.',
+
+	'E18CA35213A9C8F4391BD7C519BEF9B23A8C0090' :
+		'This key is used to sign the automatically-generated feeds for '
+		'maven project. It was announced on the 0install mailing list on '
+		'2013-04-30',
 }
