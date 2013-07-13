@@ -166,4 +166,9 @@ hints = {
 		'This key is used to sign the automatically-generated feeds for '
 		'maven project. It was announced on the 0install mailing list on '
 		'2013-04-30',
+
+	'AC9B973549D819AE22BCD08D22EA111A7E4242A4' :
+		'This is the signing key for repo.roscidus.com, a repository of '
+		'third-party free software for which the upstream projects do not '
+		'provide a 0install feed. It is run by the 0install.net project.',
 }
