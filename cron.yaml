@@ -1,4 +1,0 @@
-cron:
-- description: update 0mirror
-  url: /cron/0mirror
-  schedule: every 1 hours
