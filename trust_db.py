@@ -30,8 +30,8 @@ hints = {
 		'sign software in an announcement posted on 9 Aug 2005.',
 
 	'FC71DC3364367CE82F91472DDF32928893D894E9' :
-		'Niklas Höglund is experimenting with using Zero Install on the Nokia 770. This key has '
-		'been known since the announcement of 4 Apr 2006 on the zero-install mailing list.',
+		u'Niklas Höglund is experimenting with using Zero Install on the Nokia 770. This key has '
+		u'been known since the announcement of 4 Apr 2006 on the zero-install mailing list.',
 
 	'B93AAE76C40A3222425A04FA0BDA706F2C21E592' : # expired
 		'Ilja Honkonen is experimenting with packaging software for Zero Install. This key '
@@ -91,8 +91,8 @@ hints = {
 		'was taken from http://modeemi.fi/~tuomov/ on 2007-11-17.',
 
 	'A14924F4DFD1B81DED3436240C9B2C41B8D66FEA' :
-		'Andreas K. Förster is experimenting with creating Zero Install feeds. '
-		'This key was announced in a 2008-01-25 post to the zeroinstall mailing list.',
+		u'Andreas K. Förster is experimenting with creating Zero Install feeds. '
+		u'This key was announced in a 2008-01-25 post to the zeroinstall mailing list.',
 
 	'520DCCDBE5D38E2B22ADD82672E5E2ACF037FFC4' :
 		'Thierry Goubier creates PPC binaries for the ROX desktop. This key was '
@@ -106,9 +106,9 @@ hints = {
 		'Rene Lopez is a Zero Install developer and the packager for the ClanBomber game.',
 
 	'77F46DC2F98DB14BFB957102D980D4F15AFE9C14' :
-		'Anders F Björklund is a Zero Install developer, whose work includes the Mac port '
-		'and feeds for Firefox, OpenOffice.org and SeaMonkey. Key announced on the zeroinstall '
-		'mailing list 2010-04-21.',
+		u'Anders F Björklund is a Zero Install developer, whose work includes the Mac port '
+		u'and feeds for Firefox, OpenOffice.org and SeaMonkey. Key announced on the zeroinstall '
+		u'mailing list 2010-04-21.',
 
 	'B893F41ED9E753C631EB09D4A9D3F38F22C6A977' :
 		'Wayne Scott has created a feed for sshuttle. This key was '
@@ -171,4 +171,7 @@ hints = {
 		'This is the signing key for repo.roscidus.com, a repository of '
 		'third-party free software for which the upstream projects do not '
 		'provide a 0install feed. It is run by the 0install.net project.',
+
+	'6BB181E629F3591A8647A393962C1A2577CB1ACD' :
+		u'This key is used to sign the Armagetron feeds at http://simamo.de.',
 }
