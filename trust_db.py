@@ -11,12 +11,12 @@ hints = {
 		'was announced on 11 Sep 2005 on the zero-install mailing list.',
 
 	'92429807C9853C0744A68B9AAE07828059A53CC1' :
-		'Thomas Leonard created Zero Install and ROX. This key is used to sign updates to the '
-		'injector; you should accept it.',
+		'Thomas Leonard created Zero Install and ROX. This key has been replaced, but may still '
+		'sign older packages.',
 
 	'DA9825AECAD089757CDABD8E07133F96CA74D8BA' :
 		'Thomas Leonard created Zero Install and ROX. This key is used to sign updates to the '
-		'injector; you should accept it. It was announced on the Zero Install mailing list '
+		'0install tools; you should accept it. It was announced on the Zero Install mailing list '
 		'on 2009-05-31.',
 
 	'0597A2AFB6B372ACB97AC6E433B938C2E9D8826D' : 
