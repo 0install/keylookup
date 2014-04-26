@@ -174,4 +174,8 @@ hints = {
 
 	'6BB181E629F3591A8647A393962C1A2577CB1ACD' :
 		u'This key is used to sign the Armagetron feeds at http://simamo.de.',
+
+	'770C1FC49A8C33E75794A9DF8EA318271BFD1EBE' :
+		u'Florian Höch publishes the dispcalGUI monitor calibration GUI. '
+		u'This key was announced on the 0install mailing list on 2014-04-26.',
 }
