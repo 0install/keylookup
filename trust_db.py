@@ -178,4 +178,11 @@ hints = {
 	'770C1FC49A8C33E75794A9DF8EA318271BFD1EBE' :
 		u'Florian Höch publishes the dispcalGUI monitor calibration GUI. '
 		u'This key was announced on the 0install mailing list on 2014-04-26.',
+
+	'DCB65352691DD1562B0672C93937F4E077A59446' :
+		'This key signs the OCaml tools repository at tools.ocaml.org.',
+
+	'B31A26B256E6827C2B172A2113E2283B291DF4A6' :
+		'This keys signs software at tuxfamily.org. '
+		'It was announced on the 0install mailing list on 2015-01-03.',
 }
