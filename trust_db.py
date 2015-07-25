@@ -186,7 +186,11 @@ hints = {
 		'This keys signs software at tuxfamily.org. '
 		'It was announced on the 0install mailing list on 2015-01-03.',
 
-	'1F8E6406BB4FC78F093819E4610BB162DD634B39' :
-		"Bart van Strien's repository. This key was announced on the "
+        '368FE1BC04497023C3931BE6E40072258B3AF881' :
+		"Bart van Strien's old repository key. This key was announced on the "
+		"0install mailing list on 2015-07-12.",
+
+	'3105C7FFF107AA2DE5302E748319B2F9A139EBDA' :
+		"Bart van Strien's repository. This (sub-)key was announced on the "
 		"0install mailing list on 2015-07-12.",
 }
