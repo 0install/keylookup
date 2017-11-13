@@ -197,4 +197,7 @@ hints = {
 	'A4364AF860CFC086A88711A79437846DB9F1801B' :
 		"Alexandr Danilow's repository at modos189.ru. This key was announced "
 		"on the 0install mailing list on 2015-10-22.",
+
+	'CE7D7DB65853C2E8FDC973FAB7E5E9FCD2403A24' :
+		"This is the official key of AXOOM GmbH (https://axoom.com/).",
 }
