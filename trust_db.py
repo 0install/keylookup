@@ -193,4 +193,7 @@ hints = {
 	'3105C7FFF107AA2DE5302E748319B2F9A139EBDA' :
 		"Bart van Strien's repository. This (sub-)key was announced on the "
 		"0install mailing list on 2015-07-12.",
+
+	'CE7D7DB65853C2E8FDC973FAB7E5E9FCD2403A24' :
+		"This is the official key of AXOOM GmbH (https://axoom.com/).",
 }
