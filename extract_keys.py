@@ -5,9 +5,12 @@ import subprocess
 def scan_keyring(path, out):
 	child = subprocess.Popen(['gpg', '--fixed-list-mode', '--with-colons', '--list-keys', '--fingerprint',
 				  '--no-default-keyring', '--keyring', path], stdout = subprocess.PIPE)
+        keys = []
 	for line in child.stdout:
 		if line.startswith('fpr:'):
-			print >>out, line.split(':')[9]
+			keys.append(line.split(':')[9])
+        for key in sorted(keys):
+		print >>out, key
 	if child.wait():
 		print "Failed to read keyring %s" % path
 
