@@ -1,7 +1,9 @@
 # Copyright (C) 2009, Thomas Leonard
 
+import logging
 import trust_db
 from xml.sax.saxutils import XMLGenerator
+from google.appengine.api import urlfetch
 
 import webapp2
 
@@ -14,6 +16,18 @@ debian_maint = load('debian-maintainers.db')
 class KeyLookup(webapp2.RequestHandler):
 	def get(self, keyID):
 		self.response.headers['Content-Type'] = 'application/xml'
+		url = 'https://keylookup.0install.net/key/' + keyID
+		try:
+			result = urlfetch.fetch(url)
+			if result.status_code == 200:
+				self.response.write(result.content)
+				return
+			logging.warning('Error from 0install.net (%d): %s' % (result.status_code, result.content))
+		except urlfetch.Error:
+			logging.exception('Caught exception fetching url')
+
+		# Fall back to built-in database
+
 		gen = XMLGenerator(self.response.out, 'utf-8')
 		gen.startDocument()
 		gen.startElement('key-lookup', {})
