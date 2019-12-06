@@ -201,4 +201,8 @@ let hints = String.Map.of_list [
 
     "CE7D7DB65853C2E8FDC973FAB7E5E9FCD2403A24",
     "This is the official key of AXOOM GmbH (https://axoom.com/).";
+
+    "6B9AF86596226571FB363EC5F79219AAB7B1370C",
+    "Torsten Dittmann uses this key to provide software at omniawrite.com. \
+     This key was announced on the 0install mailing list on 2019-12-07.";
   ]
