@@ -205,4 +205,9 @@ let hints = String.Map.of_list [
     "6B9AF86596226571FB363EC5F79219AAB7B1370C",
     "Torsten Dittmann uses this key to provide software at omniawrite.com. \
      This key was announced on the 0install mailing list on 2019-12-07.";
+
+    "88C8A1F375928691D7365C0259AA3927C24E4E1E",
+    "This is the signing key for apps.0install.net, a repository of common \
+     tools, libraries and runtime environments run by the 0install.net \
+     project.";
   ]
