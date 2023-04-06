@@ -210,4 +210,7 @@ let hints = String.Map.of_list [
     "This is the signing key for apps.0install.net, a repository of common \
      tools, libraries and runtime environments run by the 0install.net \
      project.";
+
+    "6F2BA466746148A09EA1B9CD40BD2489FD4754F0",
+    "This is the official key of DeepL SE (https://www.deepl.com/).";
   ]
